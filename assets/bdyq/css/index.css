@@ -1,0 +1,506 @@
+body,ul,ol,h1,h2,h3,h4,input,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+*{
+
+	text-decoration: none;
+}
+.nav{
+	width: 100%;
+	height: 60px;
+	background: #168bd8;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.nav-inner{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav-list{
+	float: left;
+	width: 300px;
+	height: 60px;
+	margin-left: 60px;
+}
+.nav-list li{
+	float: left;
+}
+.nav-list li a{
+	display: block;
+	width: 100px;
+	height: 28px;
+	padding-top: 32px;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+}
+.nav-help{
+	float: right;
+	margin-top: 25px;
+}
+.nav-help li{
+	float: left;
+}
+.nav-help li a{
+	color: #fff;
+	font-size: 12px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.yuqing-logo{
+	float: left;
+	display: block;
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
+	background: url(../images/header_z_94c6de7.png);
+
+}
+.section:nth-child(1){
+	position: relative;
+	background:#3fb0ee url(../images/bg-0_c25cb21.jpg) center top;
+}
+.section:nth-child(2){
+	background:#0d71cd url(../images/bg-1_e29bcfa.jpg) center top;
+}
+.section:nth-child(3){
+	background: #49c179 url(../images/bg-2_867b7b4.jpg) center top;
+}
+.section:nth-child(4){
+	background: #009a70 url(../images/bg-3_153a003.jpg) center top;
+}
+.section .top{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cloud1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1000px;
+	background: url(../images/cloud_1_1d4924b.png);
+}
+.section .middle{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+}
+.cloud2{
+	position: absolute;
+	top: -200px;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background: url(../images/cloud_2_a186193.png);
+}
+.section .bottom{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+.cloud3{
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background: url(../images/cloud_3_5ee0340.png);
+}
+.center .text{
+	position: absolute;
+	width: 501px;
+	height: 158px;
+	background: url(../images/launch_deea86c.png);
+	left: 0;
+	top: -210px;
+}
+.center .fly{
+	position: absolute;
+	width: 119px;
+	height: 78px;
+	background: url(../images/flight_ade8ee2.png);
+	left: 295px;
+	top: -236px;
+}
+.center .login{
+	background: #4ebffc;
+	height: 300px;
+	width: 340px;
+	border-radius: 5px;
+	background: #4ebffc;
+	position: absolute;
+	right: 0;
+	top: -198px;
+}
+.center .login form{
+	padding: 26px 20px 0;
+}
+.center .login form>div span{
+	background: url('../images/icons.png') no-repeat;
+    width: 14px;
+    height: 14px;
+    margin: 12px 3px 0 10px;
+    display:inline-block;
+}
+.center .login form>.account span{
+	background-position: -124px -12px;
+}
+.center .login form>.pwd span{
+	background-position: -140px -12px;
+}
+.account input,.pwd input,.yanzheng input{
+	padding: 9px;
+    height: 20px;
+    float: right;
+    width:252px;
+    border:0;
+}
+.yanzheng input{
+	width:122px;
+	float: left;
+}
+.yanzheng .img{
+	display: inline-block;
+	width: 99px;
+	height: 39px;
+	float: left;
+	margin-left: 10px;
+	background: url(../images/yanzheng.png);
+}
+.yanzheng a{
+	float: left;
+	width: 36px;
+	height: 18px;
+	margin: 10px 0 0 10px;
+	font-size:12px;
+	color:#fff;
+}
+.account,.pwd,.yanzheng{
+	width: 299px;
+	height: 40px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.yanzheng{
+	background: transparent;
+}
+.denglu{
+	border: 0;
+	background: #ffd850;
+	color: #5c4c12;
+	border-radius: 2px;
+	width: 299px;
+	font-size: 18px;
+	line-height: 35px;
+	margin-top: 12px;
+	display: block;
+}
+.other{
+	margin:12px 0 8px;
+	overflow: hidden;
+	font-size: 12px;
+	color:#fff;
+}
+.other .fl{
+	float: left;
+	overflow: hidden;
+	display: inline-block;
+}
+.other .fl i{
+	float: left;
+	display: inline-block;
+    width: 15px;
+    height: 17px;
+    margin:0 4px 0 0;
+    background: url(../images/icons.png) no-repeat  -203px -75px;
+}
+.other .fr{
+	float: right;
+	display: inline-block;
+
+}
+.flowhead{
+	width: 100%;
+	height: 126px;
+	background: #0d71cd url(../images/bg-1_e29bcfa.jpg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.section .center{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.flowhead .center div{
+	position: absolute;
+}
+.ice1{
+	width: 265px;
+	height: 175px;
+	background: url(../images/hill_1_0d79217.png);
+	left: -182px;
+	top: -50px;
+}
+.ice2{
+	width: 63px;
+	height: 78px;
+	background: url(../images/hill_2_540422f.png);
+	right: 288px;
+	top: -13px;
+}
+.ice3{
+	width: 260px;
+	height: 175px;
+	background: url(../images/hill_3_ace39fb.png);
+	right: -129px;
+	top: -47px
+}
+.ship{
+	width: 242px;
+	height: 228px;
+	background: url(../images/ship_1ad6734.png);
+	left: 100px;
+	top: -191px;
+	
+}
+.section .section-left{
+	position: absolute;
+	top: -100px;
+	left: 20px;
+	color: #fff;
+	width: 500px;
+	opacity: 0;
+	transition:all .3s;
+}
+.section-left h3{
+	width: 66px;
+	height: 126px;
+	float: left;
+	background: url(../images/h_lingxian_221f2d8.png) no-repeat;
+}
+
+.content{
+	margin-left: 86px;
+	margin-top: 8px;
+	transition:all .3s;
+}
+.content h4{
+	font-size: 34px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 48px;
+	margin-bottom: 6px;
+}
+.content p{
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	opacity: .8;
+}
+.section-right{
+	width: 444px;
+	height: 427px;
+	position: absolute;
+	top: -200px;
+	right: 26px;
+	opacity: 0;
+	transition:all .3s;
+	background:  url(../images/brain_36a156f.png);
+}
+.kuai{
+	position: absolute;
+	bottom: 0;
+}
+.kuai1{
+	background: #35b568;
+	left: 70px;
+	width: 44px;
+	height: 44px;
+}
+.kuai2{
+	background: #4ac179;
+	left: 158px;
+	width: 88px;
+	height: 88px;
+}
+.kuai3{
+	background: #8ae75a;
+	left: 246px;
+	width: 44px;
+	height: 44px;
+}
+.kuai4{
+	background: #8ae75a;
+	right: 328px;
+	width: 44px;
+	height: 44px;
+}
+.kuai5{
+	background: #4ac179;
+	right: 240px;
+	width: 44px;
+	height: 44px;
+}
+.next-page{
+	display: block;
+	width: 30px;
+	height: 26px;
+	background: url(../images/arrow_aad9b25.png);
+	position: absolute;
+	left: 485px;
+	bottom:42px;
+}
+.section3 .section-left h3{
+	background: url(../images/h_quanmian_8f813d2.png) no-repeat;
+}
+	
+.section3 .section-right{
+	background: url(../images/allside_e8abd12.png) no-repeat;
+}
+.section3 .flowhead{
+	height: 138px;
+background: transparent url(../images/bg-3-head_b8a3f7f.png);
+}
+.section3 .kuai1{
+	background: #29a2b8;
+	left: -18px;
+	top: 148px;
+	width: 88px;
+	height: 88px;
+}
+.section3 .kuai2{
+	background: #33bb9a;
+	left: 70px;
+	top: 60px;
+	width: 88px;
+	height: 88px;
+}
+.section3 .kuai3{
+	background: #60cf6e;
+	left: 158px;
+	top: 148px;
+	width: 88px;
+	height: 88px;
+}
+.section3 .kuai4{
+	background: #33bb9a;
+	left: 246px;
+	top: 236px;
+	width: 88px;
+	height: 88px;
+}
+.section3 .kuai5{
+	background: #8ae75a;
+	left: 70px;
+	top: 236px;
+	width: 176px;
+	height: 176px;
+	background-image: url(../images/square_c776382.jpg);
+}
+.section4 h3{
+	background: url(../images/h_zhuanye_256a94d.png) no-repeat;
+	
+}
+.section4 .section-right{
+	width: 603px;
+	height: 361px;
+	background: url(../images/stat_8934528.png);
+}
+.section4 .flowhead{
+	background: none;
+}
+.copyright{
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+}
+.copyright a{
+	color:#fff;
+}
+.copyright a:hover{
+	text-decoration: underline;
+}
+@keyframes moveL{
+	100%{
+		transform:translateX(-1366px);
+	}
+}
+@keyframes moveR{
+	100%{
+		transform:translateX(-100px);
+	}
+}
+@keyframes h{
+	100%{
+		transform:rotateY(360deg);
+	}
+}
+@keyframes ship{
+	100%{
+		transform:translateX(26px);
+	}
+}
+@keyframes secleft{
+	0%{	
+		opacity: 0;
+		transform:translateX(-50px);
+	}
+	100%{
+		opacity: 1;
+		transform:translateX(0);
+	}
+}
+@keyframes secright{
+	0%{	
+		opacity: 0;
+		right:-24px;
+	}
+	100%{
+		opacity: 1;
+		right:26px;
+	}
+}
+@keyframes page{
+	0%{
+		transform:translateY(-3px);
+		opacity: 1;
+	}
+	100%{
+		transform:translateY(3px);
+		opacity: 0.5;
+	}
+}
+#active .ship{
+	animation:ship 1s linear both;
+}
+#active.section h3{
+	animation:h 2s .5s linear infinite both;
+}
+#active .cloud1{
+	animation:moveL 10s linear infinite;
+}
+#active .cloud2{
+	animation:moveL 11s linear infinite;
+}
+#active .cloud3{
+	animation:moveL 12s linear infinite;
+}
+#active .section-left{
+	animation:secleft .5s linear both;
+}
+#active .section-right{
+	animation:secright .5s linear both;
+}
+#active .next-page{
+	animation:page .3s ease both infinite alternate;
+}

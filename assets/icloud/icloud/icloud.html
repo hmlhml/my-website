@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" ng-app="icloud">
+<head>
+	<meta charset="UTF-8">
+	<title>icloud</title>
+	<link rel="stylesheet" href="css/icloud.css">
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/icloud.js"></script>
+</head>
+<body>
+<div class="body" ng-controller="body">
+
+	<!--左边部分*********************************************-->
+	<div class="left">
+		<div class="top">
+			<span class="logo">iCloud</span>
+			<span class="add" ng-click="add()">+</span>
+		</div>
+		<div class="list">
+			<ul class="ul">
+				<li class="liebiao" ng-repeat="v in news">
+					<span class="yuan" ng-style="{background:v.color}"></span>
+					<span class="con">{{v.title}}</span>
+				</li>
+			</ul>
+		</div>
+	</div>	
+
+
+	<!--右边部分*********************************************-->
+
+	<div class="right">
+		<div class="tops">
+			<div class="input"><input type="text" placeholder="搜索所有提醒"></div>
+		</div>
+		<div class="lists">
+			<div class="list_top" ng-style="{color:news[index].color}">
+				<span class="list_top_one">{{news[index].title}}</span>
+				<span class="list_top_tow">{{news[index].option}}</span>
+			</div>
+			<div class="list_wancheng">
+				<span class="wancheng">已完成：0 项</span>
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+			<div class="list_news list_wancheng">
+				<span>新项目……</span>
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
