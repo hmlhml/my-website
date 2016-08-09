@@ -981,6 +981,9 @@ figure.effect-bubba:hover p {
 	margin-bottom: 2rem;
 	color: #fff;
 }
+.tips{
+	overflow: hidden;
+}
 .tipsIcon{
 	height: 45px;
     width: 45px;
@@ -991,6 +994,7 @@ figure.effect-bubba:hover p {
 .tipsIcon img{
 	width: 20px;
 	margin: 0 auto;
+	transform: rotate(45deg);
 }
 .tips p{
 	float: left;
