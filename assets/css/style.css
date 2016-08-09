@@ -988,6 +988,10 @@ figure.effect-bubba:hover p {
     transform: rotate(-45deg);
     float: left;
 }
+.tipsIcon img{
+	width: 20px;
+	margin: 0 auto;
+}
 .tips p{
 	float: left;
 	margin-left: 15px;
