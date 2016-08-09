@@ -982,7 +982,7 @@ figure.effect-bubba:hover p {
 	color: #fff;
 }
 .tips{
-	height: 80px;
+	height: 100px;
 }
 .tipsIcon{
 	height: 45px;
@@ -998,7 +998,8 @@ figure.effect-bubba:hover p {
 }
 .tips p{
 	float: left;
-	margin-left: 15px;
+	margin-left: 30px;
+	color: #fff;
 }
 body{
 	background: rgb(224, 247, 246);
@@ -1016,7 +1017,7 @@ body{
 #contact .cover{
 	width: 100%;
 	height: 100%;
-	background-color: rgba(33, 103, 88, 0.9);
+	background-color: rgba(225,225,225,0.8);
 	margin: -120px 0 -100px;
 }
 .Contact-title{
