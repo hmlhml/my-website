@@ -545,7 +545,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	font-size: 11px;
 	letter-spacing: 3px;
-	color: #222;
+	color: #fff;
 }
 
 .navbar-custom .nav li.active,
@@ -983,6 +983,7 @@ figure.effect-bubba:hover p {
 }
 .tips{
 	height: 100px;
+	margin-top: 50px;
 }
 .tipsIcon{
 	height: 45px;
@@ -1005,7 +1006,7 @@ body{
 	background: rgb(224, 247, 246);
 }
 #undefined-sticky-wrapper nav{
-	background: rgba(0,0,0,0.5);
+	rgba(144, 146, 153, 0.94);
 }
 #skills{
 	background: none repeat scroll 0 0 rgba(115, 224, 179, 0.72);
