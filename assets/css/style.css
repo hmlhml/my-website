@@ -981,12 +981,16 @@ figure.effect-bubba:hover p {
 	margin-bottom: 2rem;
 	color: #fff;
 }
-.tipsicon{
+.tipsIcon{
 	height: 45px;
     width: 45px;
     border: 3px double #fff;
     transform: rotate(-45deg);
     float: left;
+}
+.tips p{
+	float: left;
+	margin-left: 15px;
 }
 body{
 	background: rgb(224, 247, 246);
