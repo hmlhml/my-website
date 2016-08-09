@@ -1024,7 +1024,8 @@ body{
 	color: #fff;
 }
 .ajax-hidden>div{
-border: 1px solid #fff!important;
+	border: 1px solid #fff!important;
+	margin-bottom: 30px!important;
 }
 .ajax-hidden input,.ajax-hidden textarea{
 	background: rgba(0,0,0,0)!important;
