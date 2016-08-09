@@ -198,13 +198,13 @@ textarea.form-control {
 .btn-group-lg > .btn {
 	padding: 10px 25px;
 	font-size: 13px;
-    background: rgba(17, 17, 17, 0.8);
     color: #fff;
+    border: 1px solid #fff;
 }
 .btn-lg:hover,
 .btn-group-lg > .btn:hover{
-    background: rgba(17, 17, 17, 1.8);
-    color: #fff;
+    background: rgba(17, 17, 17, 0.8);
+    color: #ccc;
 }
 
 .btn-sm,
