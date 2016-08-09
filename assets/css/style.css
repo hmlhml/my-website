@@ -982,7 +982,7 @@ figure.effect-bubba:hover p {
 	color: #fff;
 }
 .tips{
-	overflow: hidden;
+	height: 80px;
 }
 .tipsIcon{
 	height: 45px;
