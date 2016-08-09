@@ -200,6 +200,8 @@ textarea.form-control {
 	font-size: 13px;
     color: #fff;
     border: 1px solid #fff;
+    background: rgba(0,0,0,0);
+
 }
 .btn-lg:hover,
 .btn-group-lg > .btn:hover{
