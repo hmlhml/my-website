@@ -536,7 +536,7 @@ textarea.form-control {
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-	background: #fff;
+	background:rgba(144, 146, 153, 0.94);
 	padding: 0;
 }
 
