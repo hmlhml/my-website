@@ -985,6 +985,9 @@ figure.effect-bubba:hover p {
 	height: 100px;
 	margin-top: 50px;
 }
+.tips:last-child{
+	margin-top: 20px;
+}
 .tipsIcon{
 	height: 45px;
     width: 45px;
@@ -1001,7 +1004,7 @@ figure.effect-bubba:hover p {
 	float: left;
 	margin-left: 30px;
 	color: #fff;
-	line-height: 30px;
+	line-height: 45px;
 }
 body{
 	background: rgb(224, 247, 246);
